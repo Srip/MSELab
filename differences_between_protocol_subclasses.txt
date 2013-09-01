@@ -1,0 +1,29 @@
+﻿PROTOCOL: 
+  	 Similar to an interface in Java.
+	 List of methods that any class can declare itself to 	 	 implement.
+	 A class implementing a protocol must implement all its 		 methods,else compiler will emit an error.
+	 It is possible to implement multiple protocols.
+         Implemetation file not required.
+
+Eg:
+   @protocol System
+    -(void)systemName;
+    -(void)systemNumber;
+
+    @interface Windows:NSObject <System>
+    //..
+    @end
+
+SUBCLASSING: 
+	    Inherits methods and instance variables from its 	    superclass.
+	    Multiple inheritance is not allowed.
+	    Implemetation as well as interface file is necesssary.
+	    Not required to implement all the methods of the base 	    class.
+
+Eg :@interface subclass : baseClass
+	{
+		//instance variables
+	}
+	//methods
+    @end
+ 	    
