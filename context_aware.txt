@@ -1,0 +1,5 @@
+Context awareness is a property of mobile devices that is defined complementary to location awareness. Whereas location may determine how certain processes in a device operate, context may be applied more flexibly with mobile users, especially with users of smart phones.
+  Example : Foursquare : This is a check in application in which people can check in to the places they have visited .
+  DialApp: Context aware application which predicts who we are likely to call based on the location we are currently in.
+  Friday :An app that notifies user when the phone is running low on battery and there is a charger nearby.
+	And alternate dialer app, which, rather than showing the recent calls log, shows the list of users you are most probably going to call based on your context.An app that shows you a daily travelogue, and activity graph.

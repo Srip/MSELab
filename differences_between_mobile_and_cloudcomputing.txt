@@ -1,0 +1,13 @@
+Cloud computing : 
+	1.Allows you to store and access all your files and folders in the "cloud" area on the internet.
+	2.Provides virtualization and the concept of wherever and whenever.
+	3.A physical device with internet access is the requirement.
+	4.The computing power is more than that of the physical device at hand as a result of virtualization.
+	5.Cloud computing provides scope for scalability ,both wrt H/w as well as Software as a service.
+	
+Mobile:
+	1.Physical device which enables you to telework.
+	2.The computing power is restricted to the power of the physical device.
+	3.The software has to be installed onto the local device for accessing.
+	4.Mobile can be connected to cloud services as well.
+	
