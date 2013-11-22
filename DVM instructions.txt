@@ -1,0 +1,13 @@
+SL NO |FORMAT |  SYNTAX |  ARGUMENTS | DESCRIPTION
+
+
+01 |01 12x	| move vA, vB |	A: destination register (4 bits) B: source register (4 bits) |	Move the contents of one non-object register to another.
+
+02 | 0e 10x | return-void	 	|Return from a void method.
+03 | 0f 11x	| return vAA	 |A: return value register (8 bits) |	Return from a single-width (32-bit) non-object value-returning method.
+
+04 | 28 10t |	goto +AA |	A: signed branch offset (8 bits) |Unconditionally jump to the indicated instruction.
+
+05 | 29 20t | 	goto/16 +AAAA | 	A: signed branch offset (16 bits) | Unconditionally jump to the indicated instruction.
+
+06 | 2a 30t	 | goto/32 +AAAAAAAA |	A: signed branch offset (32 bits) | Unconditionally jump to the indicated instruction.
